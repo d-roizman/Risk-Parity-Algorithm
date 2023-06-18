@@ -16,6 +16,7 @@ import time
 # ________________________________________________________________
 
 '''
+# run the the following code if you don't have the csv file in your compute... 
 # ________________________________________________________________
 # function to retreive sp500 stock data and store into csv file
 # ________________________________________________________________
