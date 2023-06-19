@@ -24,6 +24,9 @@ import time
 # function to retreive sp500 stock data and store into csv file
 # ________________________________________________________________
 
+# in case you can't simply import the packages...
+# pip install requests beautifulsoup4 pandas yfinance
+
 # Step 1: Get a list of S&P 500 companies
 url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
 html_content = requests.get(url).text
